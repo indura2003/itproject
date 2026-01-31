@@ -278,6 +278,14 @@ async function runTests() {
       expected: 'එයි bro ඒක set කරල දෙන්න',
       type: 'S',
       what: 'Multiple English terms; Colloquial/slang; Code-mixing; S (≤30 characters); Robustness validation'
+    },
+    {
+      tcId: 'Pos_UI_001',
+      name: 'Real-time translation updates as typing',
+      input: 'mama gedhara yanavaa. Thanks.',
+      expected: 'මම ගෙදර යනවා. තෑන්ක්ස්.',
+      type: 'S',
+      what: 'Multiple English terms; Colloquial/slang; Code-mixing; S (≤30 characters); Robustness validation'
     }
   ];
   
