@@ -304,7 +304,7 @@ async function runTests() {
       
       try {
         await page.goto('https://www.swifttranslator.com/', { waitUntil: 'networkidle' });
-        await page.waitForTimeout(3000);
+        await page.waitForTimeout(1200);
 
         // Find input field
         const inputElement = page.locator('textarea, input[type="text"]').first();
